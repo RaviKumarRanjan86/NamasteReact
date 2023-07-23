@@ -62,6 +62,7 @@ function deepFreeze(obj){
     return Object.freeze(obj);
 }
 
+// Related Resources :- https://www.youtube.com/watch?v=EU1Bs_F0fzo&ab_channel=Learnersbucket
 
 
 
