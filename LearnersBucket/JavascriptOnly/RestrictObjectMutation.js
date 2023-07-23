@@ -13,6 +13,17 @@ function changeObj(obj){
 changeObj(obj)
 console.log('In this case obj value will get updated as you are calling function changeObj', obj);
 
+// if I do not want to change the obj value
+// and still want to use it in changeObj
+function changeAnotherObj(obj){
+    obj.a=30
+    obj.b.c= 100
+}
+
+changeAnotherObj({...obj})
+console.log('Here a value wont get updated but c will', obj)
+
+
 //  Using object.seal(obj), you can update 
 //  the value of the already
 //  present obj, but you can't 
