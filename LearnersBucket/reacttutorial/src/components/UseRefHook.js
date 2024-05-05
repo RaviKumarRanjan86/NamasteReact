@@ -15,4 +15,4 @@ useEffect(() => {
   )
 }
 
-export default UseRefHook
+export default UseRefHook;

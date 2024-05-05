@@ -1,0 +1,16 @@
+.container {
+    height: 100px;
+    width: 400px;
+    background-color: rgb(55, 55, 119);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}

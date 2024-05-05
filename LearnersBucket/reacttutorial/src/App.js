@@ -6,6 +6,8 @@ import Contact from './components/Contact';
 import UseCallbackHook from './components/UseCallBackHook';
 import UseMemoHook from './components/useMemoHook';
 import UseRefHook from './components/UseRefHook';
+import CustomHookFetch from './components/customHookFetch';
+import LazyLoading from './components/LazyLoading';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path='/useCallback' element={<UseCallbackHook/>}/>
         <Route path='/useMemo' element={<UseMemoHook/>}/>
         <Route path='/useRef' element={<UseRefHook/>}/>
+        <Route path='/customHookFetch' element={<CustomHookFetch/>}/>
+        <Route path='/LazyLoading' element={<LazyLoading/>}/>
       </Routes>
     </div>
   );

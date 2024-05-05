@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+}
+
+.sidebar {
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.leftbar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}

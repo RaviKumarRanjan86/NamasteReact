@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+</body>
+<script>
+    const container = document.querySelector('.container');
+
+    function createImage(){
+        const image = document.createElement('img');
+        image.src = 'https://media.zigcdn.com/media/model/2021/May/v8_360x240.jpg';
+        container.appendChild(image);
+    }
+
+    for(let i=0; i<5 ; i++){
+        createImage()
+    }
+</script>
+</html>

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    height: 100vw;
+    grid-template-rows: auto 1fr auto;
+}
+
+.gridChild {
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+}
+
+@media screen and (min-width: 901px) {
+    body{
+        background-color: gray;
+    }
+}
+
+p:hover{
+    background-color: grey;
+}
+
+p::first-letter{
+    font-size: 20px;
+}
